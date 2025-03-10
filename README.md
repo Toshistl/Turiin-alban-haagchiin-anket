@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="mn">
 <head>
     <meta charset="UTF-8">
@@ -76,4 +77,3 @@
     </div>
 </body>
 </html>
-
