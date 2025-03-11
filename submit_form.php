@@ -2,7 +2,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Төрийн албан хаагчийн анкет</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        @media print {
+            body {
+                background: none;
+            }
+            .container {
+                box-shadow: none;
+                border: 1px solid #000;
+            }
+            button {
+                display: none;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -71,9 +86,8 @@
             <label for="trainings">Мэргэшүүлэх сургалт:</label>
             <textarea id="trainings" name="trainings" rows="3" required></textarea>
 
-            <button type="submit">Хадгалах</button>
+            <button type="button" onclick="window.print()">Хэвлэх</button>
         </form>
     </div>
 </body>
 </html>
-
